@@ -1,4 +1,5 @@
 using CodeHollow.FeedReader;
+using Pastel;
 
 namespace Feed
 {
@@ -13,7 +14,7 @@ namespace Feed
 
             foreach (var item in readerTask.Result.Items)
             {
-                items.Add(item.Title + " - " + item.Link);
+                items.Add(item.Title.Pastel("#116bba") + " - " + item.Link.Pastel("#11ba79"));
             }
 
             return items;

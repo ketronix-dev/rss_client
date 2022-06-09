@@ -10,6 +10,7 @@
 
     <ItemGroup>
       <PackageReference Include="CodeHollow.FeedReader" Version="1.2.4" />
+      <PackageReference Include="Pastel" Version="3.0.0" />
     </ItemGroup>
 
 </Project>
