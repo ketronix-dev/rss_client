@@ -1,6 +1,5 @@
 ﻿using Feed;
 using OpmlParser;
-using System.Xml;
 using Pastel;
 
 namespace RSS_client
